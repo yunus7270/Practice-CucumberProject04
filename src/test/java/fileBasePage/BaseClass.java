@@ -21,6 +21,7 @@ public class BaseClass {
 	public void entering_credentials_and_to_log_in(String string, String string2) {
 		System.out.println("Username " + string);
 		System.out.println("Password " + string2);
+		System.out.println("Password  + Username");
 	
 	}
 	@Then("read the {string} from console")
